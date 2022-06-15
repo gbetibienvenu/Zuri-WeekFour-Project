@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Design</title>
+  <style>
+  
+  *{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  background-color:white;
+}
+main{
+ width:50%;
+margin:auto;
+display:flex;
+flex-direction:row;
+color:white;
+margin-top:200px;
+}
+.top{
+  background-color:orange;
+}
+.middle{
+  background-color:#0A6471;
+}
+.bottom{
+  background-color:#112E30;
+
+}
+.top ,.middle ,.bottom{
+  padding:20px;
+  margin:0.01px;
+  
+
+}
+button{
+  text-align: center;
+  border-color: white;
+  background-color: white;
+  border-radius:100px;
+  padding:5px;
+  background:#FFFFFF;
+  margin:20px;
+  color:black;
+  border: none;
+}
+img{
+  border-radius:8px;
+  margin:10px;
+  background-color:red;
+}
+.lind{
+  justify-content:center;
+  background-color:#C36E26;
+  font-weight:bold;
+  border:none;
+  color:#26B2C3;
+}
+.lind:hover{
+  color:white;
+  font-weight:bold;
+  background-color:#33A266F2;
+}
+
+
+@media(max-width:720px){
+  button{
+    width:50%;
+    margin:auto;
+  }
+  .lind{
+    width:50%;
+    margin:auto;
+    margin-top: 50px;
+    margin-left:230px;
+  }
+
+  
+}
+  </style>
+  
+</head>
+
+<body>
+  <main>
+    <div class="top">
+      <img src="or.jpg" alt="image" width="56px" height="56px"/> <br />
+      <h1>
+        SEDANS
+      </h1><br />
+      <p>
+        choose a sedans for its affordability and excellent fuel economy. 
+Ideal of cruising in the city or on your next road trip.
+      </p> <br />
+     <center>  <button>Learn more </button> </center>
+    </div><br />
+    
+    <div class="middle">
+      
+         <img src="lb.jpg" alt="image" width="56px" height="56px"/> <br />
+      <h1>
+        SUVS
+      </h1> <br />
+      <p>
+        Take on suv for its spacious interior,power and versatility. 
+Perfect for your next family vacation and off-road adventures.
+     </p> <br />
+     <center>  <button>Learn more </button></center>
+    </div> <br />
+    
+    <divmiddle class="bottom">
+   <img src="g.jpg" alt="image" width="56px" height="56px"/> <br />
+      <h1>
+        LUXURY
+      </h1> <br />
+      <p>
+        Creat in the best cor brands without the bloated pieces.
+        Enjoy the enhanced confort of a lexury rental and arrive in style.
+     </p> <br />
+   <center>  <button>Learn more </button></center>
+   
+    </div>
+  </main>
+  <footer>
+  <center>  <button class="lind">
+      <a href="grid.html">Click here to view Grid</a>
+    </button>
+  </center>
+  </footer>
+</body>
+</html>

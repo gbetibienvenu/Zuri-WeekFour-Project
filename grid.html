@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+				<title>Titre de la page</title>
+				<style>
+								
+								body{
+												background-color:#142119;
+								}
+					.item1{
+					grid-area:a;
+					background-color:#E35C1C;
+					}
+					.item2{
+					grid-area:b;
+					background-color:orange;
+					}
+					.item3{
+				grid-area:c;
+				background-color:#1CE363;
+					}
+					.item4{
+		    grid-area:d;
+		    background-color:#229BDD;
+					}
+					.item5{
+				 grid-area:e;
+				 background-color:#229BDD;
+					}
+								
+					.container{
+					display:grid;
+					grid-template-areas: 
+					'a a b'
+				  'c d d'
+				  'c e e';
+				  grid-template-columns:200px 120px 200px;
+				  grid-template-rows:210px 90px 120px;
+				  gap:15px;
+				  padding:20px;
+				  justify-content:center;
+				  margin-top:80px;
+				  }
+				  
+								
+				</style>
+</head>
+<body>
+			<div class="container">
+			<div class="item1"></div>	
+			<div class="item2"></div>	
+			<div class="item3"></div>	
+			<div class="item4"></div>	
+			<div class="item5"></div>	
+							
+			</div>
+</body>
+</html>

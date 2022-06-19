@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Landing page</title>
+  
+  <style >
+  *{
+    margin:0;
+    padding:0;
+  }
+  body{
+    background-color:white;
+    margin:20px;
+    padding:10px;
+    width:1440px;
+  }
+  /* This is the first section styling  */
+.huddle{
+  margin:10px;
+  padding:10px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:40px;
+  display:flex;
+  flex-direction:row;
+  background:url('img/sect1-1');
+  justify-content:space-between;
+  background-size:cover;
+}
+
+ button{
+margin: 10px
+margin-top:201px
+justify-content:space-between
+}
+.sec1{
+  margin:8px;
+}
+
+.com > button{
+margin:10px;
+margin-top:20px;
+justify-content:center;
+padding:10px;
+padding-left:30px;
+padding-right:30px;
+background-color:#EA1B8B;
+border-radius:100px;
+font-size:10px;
+font-weight:bold;
+color:white;
+border:none;
+}
+.com >h1{
+  font-size:30px;
+  font-weight:bold;
+  margin:10px;
+  margin-top:15px;
+
+}
+
+ /* This is the second  section styling  */
+
+  .grow{
+    margin:10px;
+    padding:10px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+  }
+  .grown{
+    margin:10px
+    
+  }
+  .grown > h1{
+    
+    margin:30px;
+   font-size:25px;
+   font-weight:bold;
+}
+.grown > p{
+  margin-left:70px
+  font-size :30px
+  justify:center;
+  width:300px;
+}
+  .sec2{
+    margin:20px;
+    margin-left:20px;
+    width:300px;
+    
+  }
+  
+    /* This is the third section styling  */
+
+.flowing{
+  margin:10px;
+  padding:10px;
+  display:flex;
+  flex-direction:row;
+}
+.flow{
+  margin:10px;
+}
+
+
+  /* This is the fouth section styling  */
+
+.your{
+  margin:10px;
+  padding:10px;
+  display:flex;
+  flex-direction:row;
+}
+.yours{
+  margin:10px;
+}
+
+  /* This is the middle layout out section styling  */
+
+#down{
+    width:50%;
+    margin:auto;
+    border:dotted;
+    background-color:#EBEDEE;
+    border-color:white;
+    border-radius:30px;
+    padding-top:100px;
+    padding:40px;
+}
+#down > button{
+  width:50%;
+  margin:auto;
+  margin-top:50px;
+  justify-content:center;
+  padding:10px;
+  padding-left:10px;
+  padding-right:10px;
+  background-color:#EA1B8B;
+  border-radius:100px;
+  font-size:10px;
+  font-weight:bold;
+  color:white;
+  border:none;
+  float:center;
+}
+#down > h1{
+  text-align:center;
+}
+  /* This is the footers section styling  */
+
+
+ #foot{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  padding-top:80px;
+  background:#35424a
+}
+footer > .cop{
+float:right;
+padding-top:220px;
+color:red;
+}
+#f{
+width:100%;
+height:100%;
+padding:10px;
+margin:10px;
+color:#ffffff;
+text-align: center;
+background:#35424a;
+}
+
+
+
+  /* This is the top section styling  */
+
+
+.first > p{
+  float:left;
+  margin:10px;
+  font-weight:bold;
+}
+.first > button{
+  float:right;
+  margin:10px;
+  margin-top:2px;
+  border-color:#fff;
+  border-radius:10px;
+  padding:12px;
+}
+/*Media Queries */
+
+@media(max-width:375px){
+  
+  
+  
+  
+}
+  </style>
+  
+</head>
+
+<body>
+    <div class="first">
+    <p>&#128172;HUDDLE </p>
+    <button >Try it Free</button>
+    </div>
+  <section class="huddle">
+    <div class="com">
+    <h1>BUILD THE COMMUNITY YOUR FANS WILL LOVE</h1>
+    
+      <p>Huddle re-imagine the way we build communities. You have a voice ,but so does your audience .Create conection with your users as you engage in genuine discussion. </p>
+    
+  <button>Get started for free</button>
+    </div>
+   <img class="sec1" src="img/sect1" alt="section" width="370px" height="370px"/>
+    
+  </section>
+ 
+  <section class="grow">
+    <div class="grown">
+     <h1>GROW TOGETHER </h1>
+     <p>Generate meaningful discussion with your audience and build a strong loyal community .Think of the insightful conversations you miss out on with feedback form</p>
+    </div>
+    <img  class="sec2" src="img/sect2" alt="section" 
+    width="200px" height="200px"/>
+  </section>
+ 
+  <section class="flowing">
+    
+     <img    class="sec3" src="img/sect3" alt=""
+     width="200px" height="200px"/>
+     <div class="flow">
+    <h1>FLOWING CONVERSATIONS </h1>
+       
+       <p>You wouldn't paginate a conversations in real life ,so why do it online ? our thread have just-in-time loading for a more natural flow </p>
+     </div>
+     
+  </section>
+  
+  
+  <section class="your">
+    <div class="yours">
+    <h1>YOUR USERS</h1>
+  
+      <p>It take no time at all to intergrate Huddle with yours apps authentication solution. This means ,once signed in to your app,your users can start charting immediately </p>
+  </div>
+  <img class="sec4" src="img/sect4" alt="section" 
+  width="200px" height="200px"/>
+  </section>
+  
+<section id="down">
+  
+  <h1>
+  READY TO   BUILD YOUR COMMUNITY
+</h1>
+<button>Get started for Free</button>
+
+</section >
+
+
+  <footer id="f">
+    
+    <section id="foot">
+      <div> <p>&#128172; Huddle</p>
+      
+      
+     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus nec feugiat.</p>
+    <p>&#x1F4DE;+23481328208</p>
+    <p>
+      &#128231; bienvenugbeti7@gmail.com 
+    </p>
+      </div>
+    
+    
+    <div>
+            <p>ABOUT</p>
+            <p> WHAT WE DO</p>
+            <p>  FAQ </p>
+            
+      
+    </div>
+
+    
+    
+      <div>
+      <p>CAREER</p>
+      <p>BLOG</p>
+      <p>CONTACT ME</p>
+      </div>
+    </section>
+     <p class="cop"> &copy; Copyright  2018 Huddle, All Right Reserved</p>
+  </footer>
+  
+</body>
+</html>

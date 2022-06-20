@@ -1,6 +1,8 @@
   const fullName = "Bienevnu Gbeti";
   const height = "1.68m";
-  const countryName = "Benin Republic";
+  const countryName = "Benin Republic But currently  in Lagos Nigeria ";
 
-  let fullInformations = fullName + height + countryName;
-console.log(fullInformations);
+  
+console.log(fullName);
+ console.log(height);
+console.log(countryName);

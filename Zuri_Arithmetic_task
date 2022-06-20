@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+ <html> 
+ <body> 
+ <script type="text/javascript">
+ 
+  function multiply(){
+   a=Number(document.my_cal.first.value); b=Number(document.my_cal.second.value); 
+  c=a*b;
+   document.my_cal.total.value=c; 
+   } 
+   
+   function addition(){
+    a=Number(document.my_cal.first.value); b=Number(document.my_cal.second.value);
+    c=a+b; document.my_cal.total.value=c; 
+   } 
+   
+   function subtraction(){ 
+   
+   a=Number(document.my_cal.first.value); b=Number(document.my_cal.second.value); 
+   c=a-b;
+    document.my_cal.total.value=c; 
+   }
+   
+    function division(){ a=Number(document.my_cal.first.value); b=Number(document.my_cal.second.value); c=a/b; document.my_cal.total.value=c;
+     } 
+     
+    
+    
+     </script>
+      <!-- Opening a HTML Form. --> 
+      
+     <form name="my_cal">
+     
+      <!-- Here user will enter 1st number. --> 
+      
+      Number 1 input: <input type="text" name="first"><br><br> 
+      
+      <!-- Here user will enter 2nd number. --> 
+      
+      Number 2 input: <input type="text" name="second"> <br><br>
+      
+        <center><input type="button" value="ADDITION"   
+           onclick="javascript:addition();"><br><br>
+           </center>
+           
+     <center><input type="button" value="SUBTRACTION" 
+        onclick="javascript:subtraction();"> <br><br>
+        </center>
+        
+<center> <input type="button" value="MULTIPLICATION" 
+        onclick="javascript:multiply();"><br><br>
+        </center>
+        
+        <center>
+         <input type="button" value="DIVISION" 
+         onclick="javascript:division();"> <br><br>
+         
+         </centet>
+         
+          <!-- Here result will be displayed. -->
+          <center>
+        Get Result: <input type="text" name="total"> 
+           </center>
+           
+           </body> 
+           </html>

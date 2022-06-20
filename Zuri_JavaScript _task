@@ -1,0 +1,6 @@
+  const fullName = "Bienevnu Gbeti";
+  const height = "1.68m";
+  const countryName = "Benin Republic";
+
+  let fullInformations = fullName + height + countryName;
+console.log(fullInformations);
